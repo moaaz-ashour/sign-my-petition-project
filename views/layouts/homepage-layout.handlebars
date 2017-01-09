@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+   <head>
+      <title>Home Page</title>
+      <link rel="stylesheet" href="/css/homepage.css"/>
+   </head>
+   <body>
+               {{{body}}}
+         <h3>
+      Residents of southern China have continued to consume dog meat despite growing opposition and protests by animal rights activists. <br><br> The small southern Chinese city of Yulin is under fire after thousands of dogs were slaughtered for food in celebration of an annual summer solstice festival. <br> <br> Every year, meat and lychees are consumed to celebrate the longest day of the year. Unfortunately, the meat being served just happens to be that of beloved pets, neglected strays and even stolen shelter dogs. Slaughterhouses and markets line the streets, selling skinned and fried dogs that hang from hooks at street stalls or are piled onto tables, to countless festival goers and residents. <br><br>Sign the petition to urge Chinese President Xi Jinping to put a stop the practice of the public consumption of dog meat and save countless of canines from inevitable deaths.
+
+         </h3>
+      <form method="POST">
+         <input type="hidden" name="_csrf" value="{{csrfToken}}">
+         <input id='hiddenInput' name="signature" type="hidden">
+         <canvas id="canv" width="500px" height="200px"></canvas>
+         <div id='navigation'>
+            <button id='submitButton' class="buttons" type="submit">Sign</button>
+            <button id='clearButton' class="buttons" type="button">Clear</button>
+         </div>
+      </form>
+
+      <div id="logout">
+         <a href="/logout">Logout</a>
+      </div>
+   </body>
+   <script src="/js/canvas.js"></script>
+</html>

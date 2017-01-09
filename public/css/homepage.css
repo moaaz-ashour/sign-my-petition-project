@@ -1,0 +1,99 @@
+body{
+   background-color: rgba(238, 232, 170, 0.76);
+    font-family: monospace;
+   margin: auto;
+}
+h1{
+   text-align: center;
+}
+h2{
+   text-align: center;
+}
+h3{
+   height: 50px;
+   text-align: center;
+   font-size: 19px;
+   font-family: monospace;
+   width: 1005px;
+   position: relative;
+   margin: auto;
+}
+p{
+   text-align: center;
+   font-weight: bold;
+}
+
+#canv{
+   border: 1px solid #ccc;
+   text-align: center;
+   margin-top: 320px;
+   margin-bottom: 60px;
+}
+form {
+   margin: auto;
+   text-align: center;
+}
+#canv{
+   border: 1px solid black;
+   margin-top: 40px;
+   border-radius: 30px;
+   border-width: thick;
+   background-color: papayawhip;
+   margin-top: 340px;
+}
+#navigation{
+   top: 100px;
+   left: 300px;
+   text-align: center;
+}
+#container{
+   text-align: center;
+}
+.list {
+   text-align: center;
+   border: 8px solid black;
+   font-size: 23px;
+   white-space: nowrap;
+   padding: 10px;
+   font-size: 19px;
+}
+#results{
+   margin-left: 520px;
+   margin-top: 10px;
+   display: table;
+}
+#logout{
+   text-align: center;
+   margin: auto;
+   font-size: 25px;
+   font-family: monospace;
+}
+#clearButton {
+   font-size: 20px;
+   border-radius: 30px;
+   border-width: 9px;
+   color: black;
+   background-color: white;
+   border-color: #00BCD4;
+   font-weight: bold;
+}
+#submitButton {
+   font-size: 20px;
+   border-radius: 30px;
+   border-width: 9px;
+   color: black;
+   background-color: white;
+   border-color: #00BCD4;
+   font-weight: bold;
+
+}
+.buttons{
+   font-size: 25px;
+   margin-left: 130px;
+   margin-right: 130px;
+   margin-bottom: 130px;
+   font-family: monospace;
+}
+#pleaseSign{
+   color:red;
+}

@@ -1,0 +1,83 @@
+body{
+   background-color: rgba(238, 232, 170, 0.76);
+   font-family: monospace;
+}
+h1{
+   text-align: center;
+   margin-top: 40px;
+}
+
+h2{
+   text-align: center;
+   margin-bottom: 65px;
+   font-size: 27px;
+}
+#navigateBackLink{
+   text-decoration: underline;
+   color: red;
+   font-weight: bold;
+}
+div#navigateBack {
+   font-size: 20px;
+   margin-bottom: 50px;
+}
+#logOut{
+   font-size: 20px;
+   border-radius: 30px;
+   border-width: 9px;
+   color: black;
+   background-color: white;
+   border-color: #00BCD4;
+   font-weight: bold;
+}
+#logout:hover{
+   cursor: crosshair;
+}
+span{
+   color: #00BCD4;
+}
+span#num{
+   color: blue;
+   text-decoration: none;
+}
+.flex-container{
+   display: flex;
+   border: 8px solid;
+   justify-content: space-between;
+   border-bottom-color: #009688;
+   border-bottom-style:;
+   border-top-style:;
+   margin-top: 45px;
+   border-top-color: #00BCD4;
+   background-color: papayawhip;
+}
+.flex-container span {
+   color: #009688;
+   text-decoration: none;
+}
+.flex-child {
+   width: 470px;
+   height: 28px;
+   font-weight: bold;
+   font-size: 20px;
+   border: 1px solid #3F51B5;
+   border-left-color: white;
+   border-bottom-color: white;
+   background-color: papayawhip;
+   background-color: papayawhip;
+   border-top-color: white;
+}
+.navigation-button{
+   font-size: 20px;
+   border-radius: 30px;
+   border-width: 9px;
+   color: blue;
+   background-color: white;
+   border-color: red;
+   font-weight: bold;
+}
+.navigation{
+   margin-top: 50px;
+   text-align: center;
+   margin-top: 100px;
+}

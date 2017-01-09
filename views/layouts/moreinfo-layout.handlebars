@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+   <head>
+      <title>More information.</title>
+      <link rel="stylesheet" href="/css/moreinfo.css"/>
+   </head>
+      <body>
+   <h3> Please provide more information about yourself to make sure you get the best experience. <br>
+   </h3>
+   <div class="container">
+   	<section id="content">
+   		<form method="POST">
+   			<h1>More Information</h1>
+            <input type="hidden" name="_csrf" value="{{csrfToken}}">
+   			<div>
+   				<input id='age' name='age' type="number" placeholder="Your Age"/>
+   			</div>
+   			<div>
+   				<input id='city' name='city'type="text" placeholder="Your City"/>
+   			</div>
+   			<div>
+   				<input id='homepageUrl' name='homepageUrl' type="text" placeholder="Your Homepage"/>
+   			</div>
+   			<div>
+   				<input name = 'button' type="submit" value="Continue"/>
+   			</div>
+   		</form>
+   	</section>
+   </div>
+   <p>If you don't want to provide any of these information, feel free to leave any field empty.</p>
+      {{{body}}}
+   </body>
+</html>

@@ -1,0 +1,72 @@
+body{
+   background-color: rgba(238, 232, 170, 0.76);
+   font-family: monospace;
+   margin: auto;
+   text-align: center;
+}
+h1{
+   margin-top: 100px;
+   text-align: center;
+   font-size: 30px;
+}
+h2{
+   text-align: center;
+   margin-top: 70px;
+   color: navy;
+   font-size: 25px;
+}
+h3{
+   text-align: center;
+}
+p{
+   text-align: center;
+   font-weight: bold;
+}
+
+#canv{
+   border: 1px solid black;
+   margin: auto;
+}
+form {
+   margin-left: 400px;
+}
+#buttons{
+   top: 100px;
+   left: 300px;
+   text-align: center;
+}
+#container{
+   text-align: center;
+}
+.list {
+   text-align: center;
+   border: 8px solid black;
+   font-size: 23px;
+   white-space: nowrap;
+   padding: 10px;
+   font-size: 19px;
+}
+#results{
+   margin-left: 520px;
+   margin-top: 10px;
+   display: table;
+}
+#img_sig {
+    text-align: center;
+    border: 5px solid black;
+    margin-top: 100px;
+    border-radius: 22px;
+    border-radius: 1px solid black;
+}
+
+#logout{
+   text-align: center;
+}
+#navigation{
+   text-align: center;
+   font-size: 30px;
+   margin-top: 260px;
+}
+#navigation span{
+   margin: 105px;
+}

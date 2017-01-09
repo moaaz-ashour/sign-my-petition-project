@@ -1,0 +1,96 @@
+body{
+   background-color: rgba(238, 232, 170, 0.76);
+   font-family: monospace;
+}
+h1{
+   text-align: center;
+}
+form#edit{
+    margin: auto;
+    text-align: center;
+}
+canvas#canv {
+    border: 1px solid black;
+    margin-top: 40px;
+    border-radius: 30px;
+    border-width: thick;
+    background-color: papayawhip;
+}
+
+#results{
+   margin-left: 520px;
+   margin-top: 10px;
+   display: table;
+}
+#inputs {
+   position: relative;
+   margin-top: 100px;
+   text-align: -webkit-center;
+}
+#clearButton, #editButton {
+   font-size: 22px;
+   border-radius: 30px;
+   border-width: 7px;
+   color: black;
+   margin-top: 30px;
+   border-right-color: midnightblue;
+   border-left-color: darkblue;
+   font-weight: 600;
+   border-top-color: darkblue;
+   border-bottom-color: darkblue;
+   background-color: floralwhite;
+}
+#editButton{
+   width: 250px;
+   margin-top: 65px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="number"] {
+   width: 370px;
+   font-size: 20px;
+   border-width: 4px;
+   border-radius: 6px;
+   background-color: #00BCD4;
+   color: black;
+   border-top-style: none;
+   border-style: inset;
+   text-align: center;
+   font-weight: bold;
+   border-color: #00bcd4;
+}
+input[type="password"] {
+   color: red;
+   background-color: white;
+   margin-top: 30px;
+   border-color: red;
+}
+
+
+.container {
+   text-align: center;
+   width: 360px;
+}
+
+.container-2{
+   text-align: center;
+}
+
+#deleteButton, #logoutButton{
+   font-size: 20px;
+   border-radius: 30px;
+   border-width: 9px;
+   color: black;
+   background-color: white;
+   font-weight: bold;
+}
+#deleteButton{
+   margin-right: 850px;
+   border-color: red;
+}
+
+
+#logoutButton{
+   margin-top: 100px;
+   margin-bottom: 50px;
+   border-color: #00BCD4;
+}

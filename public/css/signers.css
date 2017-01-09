@@ -1,0 +1,93 @@
+body {
+   background-color: rgba(238, 232, 170, 0.76);
+   font-family: monospace;
+}
+h1 {
+   text-align: center;
+}
+h2 {
+   text-align: center;
+}
+h3 {
+   text-align: center;
+}
+p {
+   text-align: center;
+   font-weight: bold;
+}
+span {
+   color: #00BCD4;
+}
+#canv {
+   border: 1px solid #ccc;
+   margin: auto;
+}
+form {
+   margin-left: 400px;
+}
+#buttons {
+   top: 100px;
+   left: 300px;
+   text-align: center;
+}
+#container {
+   text-align: center;
+}
+#results {
+   display: flex;
+   justify-content: center;
+}
+#img_sig {
+   margin-left: 380px;
+}
+div#navigateBack {
+   font-size: 20px;
+   margin-bottom: 50px;
+}
+#logOut {
+   font-size: 20px;
+   border-radius: 30px;
+   border-width: 9px;
+   color: black;
+   background-color: white;
+   border-color: #00BCD4;
+   font-weight: bold;
+}
+#navigation {
+   text-align: center;
+   font-size: 30px;
+   margin-top: 238px;
+}
+
+#navigation span {
+   margin: 105px;
+}
+.list {
+   text-align: center;
+   border: 8px solid black;
+   font-size: 23px;
+   white-space: pre-line;
+   padding: 40px;
+   font-size: 19px;
+   font-weight: bold;
+   border-radius: 30px;
+   border-top-style: double;
+   border-bottom-style: double;
+   border-top-color: deepskyblue;
+   margin-top: 30px;
+   background-color: papayawhip;
+}
+.navigation-button {
+   font-size: 20px;
+   border-radius: 30px;
+   border-width: 9px;
+   color: blue;
+   background-color: white;
+   border-color: red;
+   font-weight: bold;
+}
+.navigation {
+   margin-top: 50px;
+   text-align: center;
+   margin-top: 100px;
+}

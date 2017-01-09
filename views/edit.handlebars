@@ -1,0 +1,32 @@
+   <h1>{{update}}</h1>
+
+   <form id= 'edit' action="/editprofile" method="POST">
+      <input type="hidden" name="_csrf" value="{{csrfToken}}">
+      <input id='hiddenInput' name="signature" type="hidden">
+      <canvas id="canv" width="500px" height="200px"></canvas> <br>
+      <button id='clearButton' type="button">Clear signature</button>
+      <div id="inputs">
+         <div class="container">
+            <input type="text" name="first_name" value='{{firstName}}' placeholder="First Name">
+            <input type="text" name="last_name" value='{{lastName}}' placeholder="Last Name">
+            <input type="email" name="email" value='{{email}}' placeholder="New Email">
+            <input type="number" name="age" value='{{age}}' placeholder="Age">
+            <input type="text" name="city" value='{{city}}' placeholder="City">
+            <input type="text" name="url" value='{{url}}' placeholder="Website">
+            <input type="password" name="password" placeholder="New Password">
+         </div>
+      </div>
+
+      <button id='editButton' type="submit">edit your profile</button>
+   </form>
+
+
+   <form id="delete" action="/delete" method="POST">
+      <div class="container-2">
+         <a href="/delete"><button id="deleteButton" type="submit">Delete your signature</button></a>
+      </div>
+   </form>
+
+   <div class="container-2">
+      <a href="/logout"><button id="logoutButton" type="submit">Logout</button></a>
+   </div>

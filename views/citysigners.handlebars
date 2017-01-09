@@ -1,0 +1,18 @@
+
+
+<h1>Here you can see who signed the petition accodring to their city.</h1>
+<h2>Number of signees from <span>{{city}}</span> is: "<span id='num'>{{numOfSignees}}</span>".</h2>
+<h3 id='head'>Signees information from <span>{{city}}</span> city:</h3>
+
+{{#signeesPerCity}}
+   <div id="main-container">
+      <div class='flex-container'>
+         <div class='flex-child'> <span>Name </span>: {{first_name}}</div>
+         <div class='flex-child'><span>Last Name </span>: {{last_name}}</div>
+         <div class='flex-child'><span>Age </span>: {{age}}</div>
+         <div class='flex-child'><span>Website </span>: {{url}}</div>
+      </div>
+   </div>
+{{/signeesPerCity}}
+
+{{>footer}}
